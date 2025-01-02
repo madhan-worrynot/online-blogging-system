@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Blogging Portal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to the Online Blogging Portal!</h1>
+      <nav>
+        <ul>
+          <li id="loginLink"><a href="login.html">Login</a></li>
+          <li id="signupLink"><a href="signup.html">Sign Up</a></li>
+          <li id="createBlogLink" style="display: none;"><a href="createBlog.html">Create Blog</a></li>
+          <li id="logoutLink" style="display: none;"><a href="#" onclick="logout()">Logout</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      
+<input type="text" id="searchInput" placeholder="Search blogs..." />
+<button id="searchButton">Search</button><br><br>
+
+      <section id="blog-list" class="animate__animated animate__fadeInUp">
+       
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2024 Online Blogging Portal</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
